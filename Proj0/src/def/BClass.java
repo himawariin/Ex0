@@ -7,14 +7,17 @@ public static void main(String args[]) {
 	System.out.println("bauuuuuu");
 }
 
-public static int coolInt() {
+public static boolean coolInt() {
 	for (int i = 0; i < 10; i++) {
 		if(i!=3) {
+			if(System.currentTimeMillis() > 100000) {
+				return false;
+			}
 			System.out.println("i!=3");
 
 		}
 	}
-	return 0;
+	return true;
 }
 
 
