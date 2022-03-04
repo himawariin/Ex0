@@ -21,7 +21,7 @@ public static int coolInt() {
 public static int coolInt2() {
 	for (int i = 0; i < 10; i++) {
 		if(i!=3) {
-			System.out.println("i!=0");
+			System.out.println("i!=2");
 		}
 	}
 	return 0;
