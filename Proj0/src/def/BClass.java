@@ -9,12 +9,11 @@ public static void main(String args[]) {
 
 public static boolean coolInt() {
 	for (int i = 0; i < 10; i++) {
-		if(i!=3) {
+		if(i!=5) {
 			if(System.currentTimeMillis() > 100000) {
 				return false;
 			}
-			System.out.println("i!=3");
-
+			System.out.println("i!=6");
 		}
 	}
 	return true;
