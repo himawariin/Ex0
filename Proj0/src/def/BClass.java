@@ -9,8 +9,9 @@ public static void main(String args[]) {
 
 public static int coolInt() {
 	for (int i = 0; i < 10; i++) {
-		if(i!=3) {
-			System.out.println("i!=3");
+		if(i!=5) {
+			System.out.println("Bau");
+			System.out.println("i!=6");
 
 		}
 	}
